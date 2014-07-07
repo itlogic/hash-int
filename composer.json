@@ -1,0 +1,22 @@
+{
+    "name": "itlogic/hash-int",
+    "description": "Encoding and decoding integer in 6-character hash",
+    "type":"library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrey Kasianov",
+            "email": "andrey@itlogic-group.ru"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "ItLogic\\HashInt": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
